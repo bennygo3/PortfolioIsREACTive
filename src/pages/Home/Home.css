@@ -1,0 +1,13 @@
+.longhorn{
+    height: auto;
+    width: 800px;
+}
+
+#longhornContainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 87px;
+    left: 42px;
+   
+}

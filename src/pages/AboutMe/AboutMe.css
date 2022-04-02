@@ -1,0 +1,27 @@
+.ben{
+    width: 1000px;
+    height: auto;
+}
+
+#meContainer{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    left: -60px;
+    text-align: center;
+}
+
+#info{
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    font-size: 33px;
+    font-family: liebelotte, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+

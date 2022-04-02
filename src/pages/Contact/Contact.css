@@ -1,0 +1,19 @@
+
+
+#form{
+    background-image: url(../../assets/thought.png);
+    position: relative;
+    top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 360px;
+    width: 480px;
+    min-width: 480px;
+    
+    background-size: 480px 360px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
