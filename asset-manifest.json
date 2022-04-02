@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/PortfolioIsREACTive/static/css/main.c7bcacd2.css",
+    "main.js": "/PortfolioIsREACTive/static/js/main.6812ff06.js",
+    "static/media/Licht.jpeg": "/PortfolioIsREACTive/static/media/Licht.0477469eeda02feef163.jpeg",
+    "static/media/colorTransform.jpeg": "/PortfolioIsREACTive/static/media/colorTransform.0427f42c891b4f48b003.jpeg",
+    "static/media/warhol.jpeg": "/PortfolioIsREACTive/static/media/warhol.c4d93c608a530690c32a.jpeg",
+    "static/media/salEar.jpg": "/PortfolioIsREACTive/static/media/salEar.96ef0bfe6750907b9b37.jpg",
+    "static/media/redfaced.jpeg": "/PortfolioIsREACTive/static/media/redfaced.25303cbf66f11496d417.jpeg",
+    "static/media/closeUp.jpeg": "/PortfolioIsREACTive/static/media/closeUp.5de06beecd388494cd0a.jpeg",
+    "static/media/sunburst.jpeg": "/PortfolioIsREACTive/static/media/sunburst.cb0e3a32d93e58b9060d.jpeg",
+    "static/media/Spray.png": "/PortfolioIsREACTive/static/media/Spray.3d0e95c4ec85038541c6.png",
+    "static/media/paintbrushes.jpeg": "/PortfolioIsREACTive/static/media/paintbrushes.dad7d550d0b9ec30283b.jpeg",
+    "static/media/useWood.png": "/PortfolioIsREACTive/static/media/useWood.16cb527b4ac0bbf064d2.png",
+    "static/media/Robot.png": "/PortfolioIsREACTive/static/media/Robot.b5186523da2596b0c5c6.png",
+    "static/media/BenThought.png": "/PortfolioIsREACTive/static/media/BenThought.60f828c0ff3495010f74.png",
+    "static/media/thought.png": "/PortfolioIsREACTive/static/media/thought.ec86dcd9dd4be9ddfa17.png",
+    "static/media/longhornSkull.png": "/PortfolioIsREACTive/static/media/longhornSkull.5e3da21924008a116391.png",
+    "static/media/BenjaminGomezResume.pdf": "/PortfolioIsREACTive/static/media/BenjaminGomezResume.10da33d9e4f948233ee4.pdf",
+    "index.html": "/PortfolioIsREACTive/index.html",
+    "main.c7bcacd2.css.map": "/PortfolioIsREACTive/static/css/main.c7bcacd2.css.map",
+    "main.6812ff06.js.map": "/PortfolioIsREACTive/static/js/main.6812ff06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7bcacd2.css",
+    "static/js/main.6812ff06.js"
+  ]
+}
