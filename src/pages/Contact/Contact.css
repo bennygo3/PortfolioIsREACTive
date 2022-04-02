@@ -1,19 +1,95 @@
-
-
 #form{
-    background-image: url(../../assets/thought.png);
+    /* background-image: url(../../assets/thought.png); */
     position: relative;
     top: 24px;
     margin-left: auto;
     margin-right: auto;
-    height: 360px;
-    width: 480px;
-    min-width: 480px;
-    
-    background-size: 480px 360px;
+    height: 400px;
+    width: 400px;
+    border-radius: 250px;
+    border-style: dotted;
+    border-width: 6px;
+    min-width: 380px;
+    background-color: rgb(40, 136, 254);
+    /* background-size: 480px 360px; */
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: flex-end;
+    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
+    align-items: center;
+    font-family: rampart-one, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+}
+
+#formContainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* top: -70px; */
+    /* left: 20px; */
+   
+}
+
+.submit{
+    margin-top: 5px;
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    background-color: gold;
+    border-color: ghostwhite;
+    border-style: dotted;
+    border-width: 5px;
+    font-size: 24px;
+    font-family: rampart-one, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline dotted 3px rgb(255, 255, 255);
+    position:relative;
+    top: -50px;
+    right: -50px;
+}
+
+.submit:hover{
+    transform: scale(1.5);
+    transition-duration: 0.6s;
+    /* text-decoration: underline 4px dotted; */
+    /* border-bottom: 5px dotted; */
+    /* padding-bottom: 1px; */
+    cursor: pointer;
+}
+
+input {
+    writing-mode: horizontal-tb !important;
+    /* font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ; */
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
 }

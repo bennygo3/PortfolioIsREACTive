@@ -6,9 +6,10 @@ import './Contact.css';
 const Contact = () => {
     return (
         <div>
-           
+
             <form  >
                 <label id="form">
+                    <div id= "formContainer">
                     Name:
                     <input
                         type="text"
@@ -35,14 +36,14 @@ const Contact = () => {
                         name="message"
 
                     />
+                    </div>
 
-                    <button type='submit'
-                        className='submit-btn'>Enter</button>
+                    <button type='submit' className='submit'>Enter</button>
 
                 </label>
 
             </form>
-            
+
         </div>
     )
 
