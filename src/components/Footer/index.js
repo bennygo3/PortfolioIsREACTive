@@ -1,11 +1,13 @@
 import React from "react";
 import './Footer.css';
+import Me from '../../assets/CowboyMe.png';
 
 class Footer extends React.Component {
     render() {
         return (
 
             <div className="buttons">
+                <img src={Me} alt="younger me" className="me" />
                 <div className="button">
                     <a href="https://github.com/bennygo3" rel="noreferrer" target="_blank">
                         <i className='fa fa-github red-color'></i>

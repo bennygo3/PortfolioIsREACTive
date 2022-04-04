@@ -1,10 +1,18 @@
+.me{
+    height: auto;
+    width: 100px;
+   
+}
+
 .buttons{
     display: flex;
     flex-direction:row;
     justify-content: center;
+    align-items: center;
     position: relative;
     gap: 43px;
-    margin-top: 66px;
+    margin-top: 36px;
+    left: 33px;
 }
 
 .button{
