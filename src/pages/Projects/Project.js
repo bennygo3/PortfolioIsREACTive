@@ -13,7 +13,7 @@ import './Project.css';
 
 const Project = () => {
     return (
-        <div>
+        <section>
             {/* <img src={Spray} alt="hand spray painting" className="spray1" /> */}
             <img src={Spray} alt="hand spray painting" className="spray" />
             <div id="sprayContainer">
@@ -95,19 +95,8 @@ const Project = () => {
                     </div>
 
                 </a>
-
-
-
-
-
-
-
-
-
-
-            </div>
-            {/* <img src={Spray} alt="hand spray painting" className="spray" /> */}
-        </div>
+            </div >
+        </section>
     )
 }
 
