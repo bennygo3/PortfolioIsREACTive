@@ -1,3 +1,7 @@
+section{
+    margin-bottom: -273px;
+}
+
 #sprayContainer{
     position: relative;
     display: flex;
@@ -6,7 +10,7 @@
     justify-content: space-evenly;
     width: 950px;
     left: 440px;
-    bottom: 250px;
+    top: -250px;
     
 }
 
@@ -56,8 +60,12 @@
 .content1, .content2, .content3, .content4, 
 .content5, .content6, .content7, .content8 {
     overflow: auto;
+    font-family: liebelotte, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     border-radius: 0px 0px 8px 8px;
-    font-size: 25px;
+    font-size: 34px;
+    letter-spacing: 2px;
     position: absolute;
     width: 100%;
     bottom: 0;
