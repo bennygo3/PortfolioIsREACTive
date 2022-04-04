@@ -1,6 +1,6 @@
 import React from 'react';
 import './Resume.css';
-import Robot from '../../assets/Robot.png';
+import Robot from '../../assets/RobotVision.png';
 import BenResume from './BenjaminGomezResume.pdf'
 
 
@@ -10,8 +10,8 @@ const Resume = () => {
         <div>
             <div id="mainContainer">
                 <div className="resumeContainer">
-                    <a href={BenResume} target="_blank" rel="noreferrer">Benjamin's Resume
-                        <p>Click Me!</p>
+                    <a href={BenResume} target="_blank" rel="noreferrer">Resume
+                    {/* <p >(Click!)</p> */}
                     </a>
                 </div>
 
