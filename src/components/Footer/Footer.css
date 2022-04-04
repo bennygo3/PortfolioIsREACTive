@@ -1,18 +1,59 @@
 .buttons{
     display: flex;
+    flex-direction:row;
+    justify-content: center;
     position: relative;
-    gap: 6px;
-    
+    gap: 43px;
+    margin-top: 66px;
 }
 
 .button{
-    width: 60px;
-    height: 60px;
-    background:#ECEFF1;
+    
+    width: 95px;
+    height: 95px;
+    /* background:darkblue; */
     border-radius: 100px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    font-size: 72px;
+    outline: 4px dotted gold;
+    /* border-color: white; */
+    color: rgb(54, 113, 251);
+}
 
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    /* font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ; */
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(0, 0, 0), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
 }
