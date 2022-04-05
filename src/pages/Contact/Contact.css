@@ -9,7 +9,7 @@
     border-radius: 250px;
     border-style: dotted;
     border-width: 6px;
-    min-width: 380px;
+    min-width: 300px;
     background-color: rgb(40, 136, 254);
     /* background-size: 480px 360px; */
     display: flex;
@@ -92,4 +92,26 @@ input {
     border-style: inset;
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
+}
+
+@media (max-width: 427px) {
+    #form{
+        height: 318px;
+        width: 318px;
+        left: -15px;
+        top:-10px;
+        margin-bottom: -30px;
+    }
+
+    #formContainer{
+        display: flex;
+        right: -20px;
+        line-height: 0.9;
+    }
+
+    .submit{
+        height: 90px;
+        width: 90px;
+        right: -39px;
+    }
 }

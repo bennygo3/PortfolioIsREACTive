@@ -97,50 +97,56 @@
        text-decoration-style: initial;
        text-decoration-color: initial;
    }
-
-/* :-webkit-any-link {
-    color: inherit;
-    cursor: pointer;
-    text-decoration: none;
-    text-decoration-line: underline;
-    text-decoration-thickness: initial;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
-} */
-
-/* .name{
-    font-family: liebelotte, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: gold; 
-    text-shadow: 5px 2px 3px rgba(161, 211, 255, 0.708);  
-} */
-
-/* #about{
-    font-family: fairwater-open-serif, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: lightpink;
-    text-shadow:rgb(255, 255, 255) 4px 4px 1px ;
-} */
-
-/* #portfolio{
-    font-family: orpheuspro, serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: calc(58px + 2vmin);
-    color: rgb(0, 0, 0);
-    text-decoration: underline dotted 2px ;
-    text-shadow: 2px 3px rgb(255, 247, 1); 
-} */
-
-/* #contact{
-    font-family: zipline-lined, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: calc(58px + 2vmin);
-    color: fuchsia;
-    text-shadow: 2px 3px dodgerblue;
-} */
+   
+   @media (max-width: 1024px) {
+       .name{
+           font-size: calc(60px + 2vmin);
+           line-height: 1.7;
+       }
+   
+       .links{
+           font-size: calc(38px + 2vmin);
+       }
+   
+   }
+   
+   @media (max-width: 768px){
+       .name{
+           font-size: calc(50px + 2vmin);
+           line-height: 1.7;
+       }
+   
+       .links{
+           font-size: calc(28px + 2vmin);
+       }
+   }
+   
+   @media (max-width: 427px){
+       .name{
+           font-size: calc(40px + 2vmin);
+           line-height: 1.6;
+           top: -2px;
+       }
+       .links{
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content: space-evenly;
+           font-size: calc(26px + 2vmin);
+           line-height: 1.75;
+           text-shadow: -6px 5px 4px rgb(0, 0, 0);
+           top: -20px;
+       }
+   
+       #about, #portfolio, #resume, #contact{
+           text-decoration-thickness: 4px;
+       }
+   }
+   
+   @media (max-width: 375px){
+       .links{
+           letter-spacing: 6px;
+       }
+   }
 
 

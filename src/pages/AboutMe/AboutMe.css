@@ -25,3 +25,88 @@
     font-style: normal;
 }
 
+@media (max-width: 1024px) {
+    .ben{
+        width: 800px;
+        height: auto;
+    }
+
+    #info{
+        font-size: 29px;
+        top: 52%;
+        left: 61%;
+        line-height: 0.9;
+    }
+}
+
+@media (max-width: 768px){
+
+    .ben{
+        width: 780px;
+        height: auto;
+        margin-bottom: -373px;
+    }
+
+    #info{
+        display:flex;
+        position: relative;
+        top: 172px;
+        left: 360px;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 427px){
+    .ben{
+        width: 535px;
+        height: auto;
+        margin-bottom: -334px;
+    }
+
+    #info{
+        left: 279px;
+        top: 199px;
+        font-size: 26px;
+        margin-bottom: 15px;
+        outline: solid black 1px;
+        background-color: white;
+        height: 370px;
+        width: 383px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 10px;
+        border-radius: 132px;
+    }
+
+    /* #info br {
+        content: 'none';
+    } */
+
+    #meContainer{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        left: -7px;
+        text-align: center;
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 375px){
+    .ben{
+        width: 560px;
+        height: auto;
+        margin-bottom: -334px;
+    }
+
+    #meContainer{
+        left: -19px;
+        width: 490px;
+    }
+}
+

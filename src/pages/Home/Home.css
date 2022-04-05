@@ -10,3 +10,15 @@
     top: 6px;
     left: 42px;
 }
+
+@media (max-width: 427px){
+    .longhorn{
+        height: auto;
+        width: 379px;
+    }
+
+    #longhornContainer{
+        top: 6px;
+        left: 11px;
+    }
+}
