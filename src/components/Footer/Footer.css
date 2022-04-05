@@ -33,7 +33,7 @@
 
 button {
     appearance: auto;
-    writing-mode: horizontal-tb !important;
+    writing-mode: horizontal-tb;
     /* font-style: ;
     font-variant-ligatures: ;
     font-variant-caps: ;
@@ -65,7 +65,7 @@ button {
     border-image: initial;
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) and (min-width:327px) {
     .me{
         width: 94px;
     }
@@ -84,7 +84,7 @@ button {
     }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 326px) and (min-width: 1px)  {
     .buttons{
         gap: 15px;
        

@@ -7,10 +7,10 @@
 
 .robot{
     height: auto;
-    width: 470px;
+    width: 310px;
     position: relative;
-    /* top: 45px; */
-    right: 178px;
+    top: 45px;
+    right:-30px;
     transform: rotate(1deg) ;
 }
 
@@ -22,7 +22,7 @@
     background-color: rgb(28, 176, 255);
     width:335px;
     height:129px;
-    outline: 12px dotted gold;
+    outline: 14px dotted gold;
     /* border-radius:100px; */
     /* box-shadow: -10px 10px 4px rgba(0,0,0,0.8); */
     padding: 4px;
@@ -34,8 +34,8 @@
     text-shadow: -8px 5px 9px  rgb(0, 0, 0);
     line-height: 125%;
     position: relative;
-    top: 30px;
-    left: 220px;
+    /* top: -57px;
+    left: 320px; */
 }
 
 .resumeContainer:hover{
@@ -48,44 +48,42 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center
 
 }
 
-/* .resumeContainer p{
-    font-size: 23px;
-} */
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
     .robot{
-        right: 30px;
-        width: 390px;
+        right: -50px;
+        width: 269px;
     }
 
     .resumeContainer{
-        left: 132px;
+        left: 32px;
         width:265px;
         height:109px;
         font-size: 58px;
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 428px) {
     .robot{
-        right: -3px;
-        width: 350px;
+        right: -44px;
+        width: 168px;
     }
 
     .resumeContainer{
-        left: 80px;
+        left: 52px;
         width: 218px;
         height: 87px;
         font-size: 48px;
+        outline: 10px dotted gold;
     }
 }
 
-@media (max-width: 427px) {
+@media screen and (max-width: 427px) and (min-width: 327px){
     .robot{
         right: -17px;
         top: -25px;
@@ -103,7 +101,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 326px) and (min-width: 1px)  {
     .robot{
         right: -13px;
         top: -10px;

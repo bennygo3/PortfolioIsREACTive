@@ -50,7 +50,7 @@ section{
 
 .content1, .content2, .content3, .content4, 
 .content5, .content6, .content7, .content8 {
-    overflow: auto;
+    /* overflow: auto; */
     font-family: liebelotte, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -80,7 +80,7 @@ section{
     justify-content: space-evenly;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
     #sprayContainer{
         width: 700px;
         left: 300px;
@@ -106,25 +106,29 @@ section{
     .content1, .content2, .content3, .content4, 
     .content5, .content6, .content7, .content8 {
         font-size: 30px;
+        text-align: center;
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 428px){
     #sprayContainer{
-        width: 528px;
-        left: 228px;
-        top: -179px;
+        width: 567px;
+        left: 63px;
+        top: -134px;
         justify-content: center;
+        
     }
 
     .spray{
-        width: 310px;
-        left: -68px;
+        width: 303px;
+        top: -21px;
+        left: -137px;
+        transform: rotate(28deg) scaleX(-1);
     }
 
     .container1, .container2, .container3, .container4,
     .container5,.container6, .container7,.container8{
-        width: 140px;
+        width: 150px;
         height: 200px;
         min-width: 130px;
         
@@ -133,16 +137,21 @@ section{
     .content1, .content2, .content3, .content4, 
     .content5, .content6, .content7, .content8 {
         font-size: 29px;
+        text-align: center;
+    }
+
+    .container7,.container8{
+        margin-bottom: 113px;
     }
 }
 
-@media (max-width: 427px) {
+@media screen and (max-width: 427px) and (min-width: 326px){
     .spray{
-        width: 306px;
+        width: 250px;
         position: relative;
         top: -43px;
         left: -137px;
-        transform: rotate(37deg) scaleX(-1);
+        transform: rotate(31deg) scaleX(-1);
     }
 
     #sprayContainer{
@@ -165,7 +174,7 @@ section{
     }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 326px) and (min-width: 1px)  {
     .spray{
         top: -27px;
         left: -141px;

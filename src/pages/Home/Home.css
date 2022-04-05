@@ -11,7 +11,7 @@
     left: 42px;
 }
 
-@media (max-width: 427px){
+@media screen and (max-width: 326px) and (min-width: 1px)  {
     .longhorn{
         height: auto;
         width: 379px;

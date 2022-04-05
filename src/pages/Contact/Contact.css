@@ -94,7 +94,7 @@ input {
     border-image: initial;
 }
 
-@media (max-width: 427px) {
+@media screen and (max-width: 427px) and (min-width: 1px)  {
     #form{
         height: 318px;
         width: 318px;

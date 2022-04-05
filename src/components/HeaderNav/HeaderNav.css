@@ -19,6 +19,8 @@
    .links{
     display: flex;
     position: relative;
+   flex-direction: row;
+   flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: baseline;
     font-family: cheap-pine, sans-serif;
@@ -98,7 +100,7 @@
        text-decoration-color: initial;
    }
    
-   @media (max-width: 1024px) {
+   @media screen and (max-width: 1024px) and (min-width: 769px) {
        .name{
            font-size: calc(60px + 2vmin);
            line-height: 1.7;
@@ -110,7 +112,7 @@
    
    }
    
-   @media (max-width: 768px){
+   @media screen and (max-width: 768px) and (min-width: 428px){
        .name{
            font-size: calc(50px + 2vmin);
            line-height: 1.7;
@@ -118,10 +120,18 @@
    
        .links{
            font-size: calc(28px + 2vmin);
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content: space-evenly;
+           font-size: calc(29px + 2vmin);
+           line-height: 1.75;
+           text-shadow: -6px 5px 4px rgb(0, 0, 0);
+           top: -20px;
        }
    }
    
-   @media (max-width: 427px){
+   @media screen and (max-width: 427px) and (min-width: 326px){
        .name{
            font-size: calc(40px + 2vmin);
            line-height: 1.6;
@@ -132,7 +142,7 @@
            flex-direction: row;
            flex-wrap: wrap;
            justify-content: space-evenly;
-           font-size: calc(26px + 2vmin);
+           font-size: calc(29px + 2vmin);
            line-height: 1.75;
            text-shadow: -6px 5px 4px rgb(0, 0, 0);
            top: -20px;
@@ -143,7 +153,7 @@
        }
    }
    
-   @media (max-width: 375px){
+   @media screen and (max-width: 326px) and (min-width: 1px)  {
        .links{
            letter-spacing: 6px;
        }
