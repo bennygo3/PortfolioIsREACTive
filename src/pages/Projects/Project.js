@@ -52,7 +52,7 @@ const Project = () => {
                     <img src={Warhol} alt="Warhol painting" />
 
                     <div className="content4">
-                        <p>SQLisDataBased</p>
+                        <p>SQLisData Based</p>
                     </div>
 
                 </a>
@@ -73,7 +73,7 @@ const Project = () => {
                     <img src={Sunburst} alt="Painting of the sun" />
 
                     <div className="content6">
-                        <p>ORMeCommerce</p>
+                        <p>ORM eCommerce</p>
                     </div>
 
                 </a>
