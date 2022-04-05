@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioIsREACTive/static/css/main.2698f0dc.css",
-    "main.js": "/PortfolioIsREACTive/static/js/main.60406b9a.js",
+    "main.js": "/PortfolioIsREACTive/static/js/main.87c0bc8e.js",
     "static/media/Licht.jpeg": "/PortfolioIsREACTive/static/media/Licht.0477469eeda02feef163.jpeg",
     "static/media/colorTransform.jpeg": "/PortfolioIsREACTive/static/media/colorTransform.0427f42c891b4f48b003.jpeg",
     "static/media/warhol.jpeg": "/PortfolioIsREACTive/static/media/warhol.c4d93c608a530690c32a.jpeg",
@@ -12,17 +12,17 @@
     "static/media/Spray.png": "/PortfolioIsREACTive/static/media/Spray.3d0e95c4ec85038541c6.png",
     "static/media/paintbrushes.jpeg": "/PortfolioIsREACTive/static/media/paintbrushes.dad7d550d0b9ec30283b.jpeg",
     "static/media/useWood.png": "/PortfolioIsREACTive/static/media/useWood.16cb527b4ac0bbf064d2.png",
-    "static/media/RobotVision.png": "/PortfolioIsREACTive/static/media/RobotVision.9ba68c8e0fd40fda730d.png",
+    "static/media/Robot.png": "/PortfolioIsREACTive/static/media/Robot.b5186523da2596b0c5c6.png",
     "static/media/CowboyMe.png": "/PortfolioIsREACTive/static/media/CowboyMe.6b88f357d8bd010892bb.png",
     "static/media/BenThought.png": "/PortfolioIsREACTive/static/media/BenThought.60f828c0ff3495010f74.png",
     "static/media/longhornCleaned.png": "/PortfolioIsREACTive/static/media/longhornCleaned.d1302a892103d4d17ade.png",
     "static/media/BenjaminGomezResume.pdf": "/PortfolioIsREACTive/static/media/BenjaminGomezResume.10da33d9e4f948233ee4.pdf",
     "index.html": "/PortfolioIsREACTive/index.html",
     "main.2698f0dc.css.map": "/PortfolioIsREACTive/static/css/main.2698f0dc.css.map",
-    "main.60406b9a.js.map": "/PortfolioIsREACTive/static/js/main.60406b9a.js.map"
+    "main.87c0bc8e.js.map": "/PortfolioIsREACTive/static/js/main.87c0bc8e.js.map"
   },
   "entrypoints": [
     "static/css/main.2698f0dc.css",
-    "static/js/main.60406b9a.js"
+    "static/js/main.87c0bc8e.js"
   ]
 }
