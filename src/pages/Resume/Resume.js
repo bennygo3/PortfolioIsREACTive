@@ -1,6 +1,6 @@
 import React from 'react';
 import './Resume.css';
-import Robot from '../../assets/RobotVision.png';
+import Robot from '../../assets/Robot.png';
 import BenResume from './BenjaminGomezResume.pdf'
 
 
