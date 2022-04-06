@@ -154,8 +154,18 @@
    }
    
    @media screen and (max-width: 326px) and (min-width: 1px)  {
+    
+    .name{
+        font-size: calc(40px + 2vmin);
+        line-height: 1.6;
+        top: -2px;
+    }
        .links{
            letter-spacing: 6px;
+           font-size: calc(35px + 2vmin);
+           line-height: 1.75;
+           text-shadow: -5px 4px 6px rgb(0, 0, 0);
+           letter-spacing: 2px;
        }
    }
 

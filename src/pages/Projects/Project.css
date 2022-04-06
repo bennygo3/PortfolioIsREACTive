@@ -32,7 +32,6 @@ section{
     box-sizing: border-box;
     object-fit: fill;
     margin: 15px 15px 5px 15px;
-    
     position: relative;
     border-radius: 8px;
 }
@@ -176,28 +175,34 @@ section{
 
 @media screen and (max-width: 326px) and (min-width: 1px)  {
     .spray{
-        top: -27px;
-        left: -141px;
-        width: 291px;
-        transform: rotate(44deg) scaleX(-1);
+    top: -42px;
+    left: -164px;
+    width: 281px;
+    transform: rotate(50deg) scaleX(-1);
     }
 
     #sprayContainer{
-        width: 366px;
-        left: 0px;
-        top: -120px;
+        width: 300px;
+        
+        left: -11px;
+        top: -121px;
     }
 
     .container1, .container2, .container3, .container4,
     .container5,.container6, .container7,.container8{
         width: 120px;
-        height: 170px;
+        height: 160px;
         min-width: 120px;
+        margin-right: -11px;
     }
 
     .content1, .content2, .content3, .content4, 
     .content5, .content6, .content7, .content8 {
         font-size: 27px;
+    }
+
+    .container7,.container8{
+        margin-bottom: 131px;
     }
 }
 

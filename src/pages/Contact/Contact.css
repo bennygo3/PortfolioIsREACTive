@@ -9,7 +9,7 @@
     border-radius: 250px;
     border-style: dotted;
     border-width: 6px;
-    min-width: 300px;
+    min-width: 200px;
     background-color: rgb(40, 136, 254);
     /* background-size: 480px 360px; */
     display: flex;
@@ -94,7 +94,7 @@ input {
     border-image: initial;
 }
 
-@media screen and (max-width: 427px) and (min-width: 1px)  {
+@media screen and (max-width: 427px) and (min-width: 327px)  {
     #form{
         height: 318px;
         width: 318px;
@@ -113,5 +113,27 @@ input {
         height: 90px;
         width: 90px;
         right: -39px;
+    }
+}
+
+@media screen and (max-width: 327px) and (min-width: 1px)  {
+    #form{
+        height: 290px;
+        width: 290px;
+        left: -1px;
+        top:-10px;
+        margin-bottom: -30px;
+    }
+    #formContainer{
+        display: flex;
+        top: -13px;
+        right: -33px;
+        line-height: 0.9;
+    }
+    .submit{
+        height: 90px;
+        width: 90px;
+        right: 20px;
+        top: 134px;
     }
 }

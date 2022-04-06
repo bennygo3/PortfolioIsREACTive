@@ -114,31 +114,34 @@
 
 @media screen and (max-width: 326px) and (min-width: 1px)  {
     .ben{
-        width: 490px;
+        width: 460px;
         height: auto;
-        margin-bottom: -382px;
+        margin-bottom: -392px;
+        position: relative;
+        top: 50px;
     }
 
     #meContainer{
-        left: -39px;
+        left: -60px;
         width: 490px;
+        
     }
 
     #info{
-    left: 245px;
-    top: 267px;
+    left: 259px;
+    top: 362px;
     font-size: 26px;
     margin-bottom: 15px;
     outline: solid black 1px;
     background-color: white;
-    height: 519px;
-    width: 374px;
+    height: 468px;
+    width: 351px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
     padding: 7px;
-    border-radius: 104px;
+    border-radius: 81px;
     }
 }
 

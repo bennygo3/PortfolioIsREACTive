@@ -86,8 +86,9 @@ button {
 
 @media screen and (max-width: 326px) and (min-width: 1px)  {
     .buttons{
-        gap: 15px;
-       
+        gap: 12px;
+        margin-top: 94px;
+        left: -7px;
     }
 
     .button{
@@ -95,5 +96,9 @@ button {
         height: 65px;
         font-size: 45px;
         align-content: center;
+    }
+
+    .me{
+        width: 84px;
     }
 }

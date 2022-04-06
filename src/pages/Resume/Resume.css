@@ -86,36 +86,38 @@
 @media screen and (max-width: 427px) and (min-width: 327px){
     .robot{
         right: -17px;
-        top: -25px;
+        top: -20px;
         width: 175px;
         margin-bottom: -73px;
+        
 
     }
 
     .resumeContainer{
-        left: 60px;
+        left: 33px;
         width: 175px;
         height: 54px;
         font-size: 39px;
         top: -57px;
+        outline: 8px dotted gold;
     }
 }
 
 @media screen and (max-width: 326px) and (min-width: 1px)  {
     .robot{
         right: -13px;
-        top: -10px;
-        width: 150px;
+        top: 19px;
+        width: 120px;
         margin-bottom: -63px;
 
     }
     
     .resumeContainer {
-        left: 52px;
+        left: 22px;
         width: 162px;
         height: 41px;
         font-size: 34px;
-        top: -40px;
+        top: -1px;
         outline: 7px dotted gold;
     }
 }
